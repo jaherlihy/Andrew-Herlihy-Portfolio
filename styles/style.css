@@ -48,24 +48,24 @@ All colors of this palette are used the same for both dark & bright ambiance des
 */
 @font-face {
 font-family: "HelveticaNeueLTPro-Th";
-src: url("/fonts/HelveticaNeueLTPro-Th.otf") format("openttype"),
-  url("/fonts/HelveticaNeueLTPro-Th.ttf") format("truettype"),
-  url("/fonts/HelveticaNeueLTPro-Th.eot") format("embedded-openttype"),
-  url("/fonts/HelveticaNeueLTPro-Th.woff") format("woff"),
-  url("/fonts/HelveticaNeueLTPro-Th.woff2") format("woff2"),
-  url("/fonts/HelveticaNeueLTPro-Th.svg") format("svg");
+src: url("../fonts/HelveticaNeueLTPro-Th.otf") format("openttype"),
+  url("../fonts/HelveticaNeueLTPro-Th.ttf") format("truettype"),
+  url("../fonts/HelveticaNeueLTPro-Th.eot") format("embedded-openttype"),
+  url("../fonts/HelveticaNeueLTPro-Th.woff") format("woff"),
+  url("../fonts/HelveticaNeueLTPro-Th.woff2") format("woff2"),
+  url("../fonts/HelveticaNeueLTPro-Th.svg") format("svg");
 font-weight: normal;
 font-style: normal;
 }
 
 @font-face {
 font-family: "HelveticaNeueLTPro-UltLt";
-src: url("/fonts/HelveticaNeueLTPro-UltLt.otf") format("openttype"),
-  url("/fonts/HelveticaNeueLTPro-UltLt.ttf") format("truettype"),
-  url("/fonts/HelveticaNeueLTPro-UltLt.eot") format("embedded-openttype"),
-  url("/fonts/HelveticaNeueLTPro-UltLt.woff") format("woff"),
-  url("/fonts/HelveticaNeueLTPro-UltLt.woff2") format("woff2"),
-  url("/fonts/HelveticaNeueLTPro-UltLt.svg") format("svg");
+src: url("../fonts/HelveticaNeueLTPro-UltLt.otf") format("openttype"),
+  url("../fonts/HelveticaNeueLTPro-UltLt.ttf") format("truettype"),
+  url("../fonts/HelveticaNeueLTPro-UltLt.eot") format("embedded-openttype"),
+  url("../fonts/HelveticaNeueLTPro-UltLt.woff") format("woff"),
+  url("../fonts/HelveticaNeueLTPro-UltLt.woff2") format("woff2"),
+  url("../fonts/HelveticaNeueLTPro-UltLt.svg") format("svg");
 font-weight: normal;
 font-style: normal;
 }
@@ -135,7 +135,7 @@ a {
   height: 800px;
   width: 100%;
   margin-bottom: 20px;
-  background-image: url("/images/fade.jpg");
+  background-image: url("../images/fade.jpg");
   background-size: cover;
   background-position: center;
   
