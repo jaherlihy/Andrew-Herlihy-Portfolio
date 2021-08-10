@@ -46,7 +46,24 @@ referred to as polar lights or northern lights.
 All colors of this palette are used the same for both dark & bright ambiance designs.
 
 */
-*{
+@font-face {
+  font-family: "HelveticaNeueLT Pro 35 Th";
+  src: url("fonts/HelveticaNeueLT Pro 35 Th.otf") format("openttype");
+  src: url("fonts/HelveticaNeueLT Pro 35 Th.ttf") format("truettype");
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+  font-family: "HelveticaNeueLT Pro 35 Th";
+  src: url("fonts/HelveticaNeueLTPro-UltLt.otf") format("openttype");
+  src: url("fonts/HelveticaNeueLTPro-UltLt.ttf") format("truettype");
+font-weight: normal;
+font-style: normal;
+}
+
+HelveticaNeueLTPro-UltLt.otf
+* {
   font-family: "HelveticaNeueLT Pro 35 Th", Arial, Helvetica, sans-serif;
 }
 
