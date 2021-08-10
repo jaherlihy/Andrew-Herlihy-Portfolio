@@ -1,0 +1,102 @@
+/* 
+Polar Night 
+#2E3440
+#3B4252
+#434C5E
+#4C566A
+
+For dark ambiance designs, it is used for background and area coloring while it's not used 
+for syntax highlighting at all because otherwise it would collide with the same background color.
+
+For bright ambiance designs, it is used for base elements like plain text, the text editor caret and
+eserved syntax characters like curly- and square brackets. It is rarely used for passive UI elements
+like borders, but might be possible to achieve a higher contrast and better visual distinction
+(harder/not flat) between larger components.
+
+Snowstorm 
+#D8DEE9
+#E5E9F0
+#ECEFF4
+
+Snow Storm is made up of three bright colors that are commonly used for text colors or base UI elements
+in bright ambiance designs.
+
+Nord Frost
+#8FBCBB
+#88C0D0
+#81A1C1
+#5E81AC
+
+Frost can be described as the heart palette of Nord, a group of four bluish colors that are
+commonly used for primary UI component and text highlighting and essential code syntax elements.
+
+All colors of this palette are used the same for both dark & bright ambiance designs.
+
+
+Aurora 
+#BF616A
+#D08770
+#EBCB8B
+#A3BE8C
+#B48EAD
+
+Aurora consists of five colorful components reminiscent of the „Aurora borealis“, sometimes
+referred to as polar lights or northern lights.
+
+All colors of this palette are used the same for both dark & bright ambiance designs.
+
+*/
+*{
+  font-family: "HelveticaNeueLT Pro 35 Th", Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #4c566a;
+  color: #eceff4;
+  font-family: "HelveticaNeueLT Pro 35 Th", Arial, Helvetica, sans-serif;
+}
+
+header {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+
+header p {
+  color: white;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 95%;
+}
+
+section {
+  width: 33%;
+  border: dashed white;
+}
+
+section h2 {
+  border: solid white;
+  width: 150px;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+footer {
+}
+
+@media screen and (max-width: 992px) {
+  .card {
+    width: 50%;
+  }
+}
+
+/* Cards are stacked on top of each other at 768px or smaller */
+@media screen and (max-width: 768px) {
+  .card {
+    width: 100%;
+  }
+}
