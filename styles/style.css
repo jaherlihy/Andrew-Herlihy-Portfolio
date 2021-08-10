@@ -48,32 +48,29 @@ All colors of this palette are used the same for both dark & bright ambiance des
 */
 @font-face {
   font-family: "HelveticaNeueLT Pro 35 Th";
-  src: url("fonts/HelveticaNeueLT Pro 35 Th.otf") format("openttype");
-  src: url("fonts/HelveticaNeueLT Pro 35 Th.ttf") format("truettype");
+  src: url("./fonts/HelveticaNeueLT Pro 35 Th.otf") format("openttype");
+  src: url("./fonts/HelveticaNeueLT Pro 35 Th.ttf") format("truettype");
 font-weight: normal;
 font-style: normal;
 }
 
 @font-face {
-  font-family: "HelveticaNeueLT Pro 35 Th";
+  font-family: "HelveticaNeueLTPro-UltLt";
   src: url("fonts/HelveticaNeueLTPro-UltLt.otf") format("openttype");
   src: url("fonts/HelveticaNeueLTPro-UltLt.ttf") format("truettype");
 font-weight: normal;
 font-style: normal;
 }
 
-HelveticaNeueLTPro-UltLt.otf
-* {
-  font-family: "HelveticaNeueLT Pro 35 Th", Arial, Helvetica, sans-serif;
-}
 
 body {
-  background-color: #4c566a;
-  color: #eceff4;
+  background-color: #3B4252;
+  color: #E5E9F0;
   font-family: "HelveticaNeueLT Pro 35 Th", Arial, Helvetica, sans-serif;
 }
 
 header {
+  font-family: "HelveticaNeueLT Pro 35 Th";
   text-align: center;
   width: 80%;
   margin: auto;
