@@ -47,60 +47,143 @@ All colors of this palette are used the same for both dark & bright ambiance des
 
 */
 @font-face {
-  font-family: "HelveticaNeueLT Pro 35 Th";
-  src: url("./fonts/HelveticaNeueLT Pro 35 Th.otf") format("openttype");
-  src: url("./fonts/HelveticaNeueLT Pro 35 Th.ttf") format("truettype");
+font-family: "HelveticaNeueLTPro-Th";
+src: url("/fonts/HelveticaNeueLTPro-Th.otf") format("openttype"),
+  url("/fonts/HelveticaNeueLTPro-Th.ttf") format("truettype"),
+  url("/fonts/HelveticaNeueLTPro-Th.eot") format("embedded-openttype"),
+  url("/fonts/HelveticaNeueLTPro-Th.woff") format("woff"),
+  url("/fonts/HelveticaNeueLTPro-Th.woff2") format("woff2"),
+  url("/fonts/HelveticaNeueLTPro-Th.svg") format("svg");
 font-weight: normal;
 font-style: normal;
 }
 
 @font-face {
-  font-family: "HelveticaNeueLTPro-UltLt";
-  src: url("fonts/HelveticaNeueLTPro-UltLt.otf") format("openttype");
-  src: url("fonts/HelveticaNeueLTPro-UltLt.ttf") format("truettype");
+font-family: "HelveticaNeueLTPro-UltLt";
+src: url("/fonts/HelveticaNeueLTPro-UltLt.otf") format("openttype"),
+  url("/fonts/HelveticaNeueLTPro-UltLt.ttf") format("truettype"),
+  url("/fonts/HelveticaNeueLTPro-UltLt.eot") format("embedded-openttype"),
+  url("/fonts/HelveticaNeueLTPro-UltLt.woff") format("woff"),
+  url("/fonts/HelveticaNeueLTPro-UltLt.woff2") format("woff2"),
+  url("/fonts/HelveticaNeueLTPro-UltLt.svg") format("svg");
 font-weight: normal;
 font-style: normal;
 }
 
+* {
+  box-sizing:border-box;
+  padding: 0;
+  margin: 0;
+}
+
 
 body {
-  background-color: #3B4252;
+  background: #3B4252;
   color: #E5E9F0;
-  font-family: "HelveticaNeueLT Pro 35 Th", Arial, Helvetica, sans-serif;
+  font-family: "HelveticaNeueLTPro-Th", Arial, Helvetica, sans-serif;
 }
 
-header {
-  font-family: "HelveticaNeueLT Pro 35 Th";
-  text-align: center;
-  width: 80%;
-  margin: auto;
+p {
+  font-size: 18px;
 }
 
-header p {
-  color: white;
+a {
+  color:#E5E9F0;
+  text-decoration: none;
+  
+}
+
+.navigation h1 {
+  display: inline-block;
+  padding-left: 33px;
+  font-family: "HelveticaNeueLTPro-UltLt", Arial, Helvetica, sans-serif;
+  font-size: 55px;
+  background: #3B4252;
+  color:#E5E9F0;
+
+}
+
+.navigation {
+  display: flex;
+  background: #3B4252;
+  padding: 20px;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+
+.navigation div {
+  padding-right: 20px;
+  padding-top: 10px;
+  margin-right: 0px;
+  float: right;
+  font-family: "HelveticaNeueLTPro-UltLt", Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  
+}
+
+.navigation div ul li {
+  display: inline-block;
+  margin-left: 0px;
+  list-style-type: none;
+}
+
+
+
+
+.main-img {
+  height: 800px;
+  width: 100%;
+  margin-bottom: 20px;
+  background-image: url("/images/fade.jpg");
+  background-size: cover;
+  background-position: center;
+  
+}
+
+
+section {
+  color: #E5E9F0;
 }
 
 main {
-  display: flex;
+  display:flex;
   flex-wrap: wrap;
   flex-direction: row;
-  width: 95%;
+  width: 100%;
 }
 
-section {
-  width: 33%;
-  border: dashed white;
+
+h2 {
+  font-size: 45px;
+
 }
 
-section h2 {
-  border: solid white;
-  width: 150px;
-  border-radius: 10px;
-  margin: 0 auto;
+aside {
+  padding-left: 60px;
+
 }
 
-footer {
+.about {
+  padding-bottom: 100px;
+
 }
+
+.about-content {
+  padding-left: 20px;
+
+}
+
+.work {
+  padding-bottom: 100px;
+
+}
+
+.contact {
+  padding-bottom: 100px;
+
+}
+
 
 @media screen and (max-width: 992px) {
   .card {
