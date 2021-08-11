@@ -194,6 +194,7 @@ main {
   
   display: flex;
   flex-wrap: wrap;
+  
   justify-content: center;
   border: solid 2px #E5E9F0;
 }
