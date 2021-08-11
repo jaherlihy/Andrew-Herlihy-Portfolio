@@ -228,7 +228,19 @@ main {
 .work-card img {
   width: 100%;
   
+}
 
+.top-card {
+  display: flex;
+  
+  max-width: 100%;
+
+}
+
+.bottom-cards {
+  display: flex;
+  flex: 33%;
+  max-width: 100%;
 }
 
 /*work cards end here */
@@ -276,5 +288,10 @@ footer {
 
 
 @media screen and (max-width: 768px) {
+  .work-content {
+    flex-direction: column;
+    flex: 100%;
+  }
+  
   
 }
