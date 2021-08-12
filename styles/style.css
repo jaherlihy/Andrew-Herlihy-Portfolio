@@ -221,17 +221,105 @@ main {
   /* border: solid 1px #E5E9F0; */
 }
 
+
+.header {
+  background-color: rgb(4, 25, 94);
+  height: 5em;
+  border-bottom: 5px solid rgb(60, 127, 172);
+}
+
+h1 {
+  text-align: center;
+  color: rgb(46, 46, 46);
+  
+}
+
+
+
+.main {
+  height: 100%''
+  width: 100%;
+  background-color:#E5E9F0;
+  margin-right: 200px;
+}
+
+.card-container {
+  width: 70%;
+  margin: 0 auto;
+  padding: 0.5em 0;
+  background-color: var(--polar-night2);
+  display: flex; 
+  flex-flow: wrap-reverse;
+}
+
+.card {
+  width: 90%;
+  margin: 0.5em auto;
+  background-color:var(--snow-storm1);
+  border: 2px solid rgb(50, 50, 51);
+  flex: 1 0 24%;
+  
+}
+
+.card-image,
+.description {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.card-image {
+  padding: 1.2em 1em;
+} 
+
+.description {
+  padding: 1em 2em;
+  color: #464646;
+}
+
+.card-image img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+/* a {
+  color: white;
+  text-decoration: none;
+  font-family: sans-serif;
+} */
+
+.description h2 {
+  padding-bottom: 0.5em;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*work cards starts here */
-.work-content {
-  /* border: solid 2px #E5E9F0; */
+
+
+/* .work-content {
+  
   display: flexbox;
   width: 100%;
   height: 66%;
   padding: 6%;
   
-}
+} */
 
-
+/* 
 
 .work-card {
  
@@ -242,7 +330,7 @@ main {
   box-shadow: 13px 11px 19px 0px #313131;
   
   
-}
+} */
 
 /* .work-card header {
   font-family: "HelveticaNeueLTPro-Th", Arial, Helvetica, sans-serif;
@@ -253,7 +341,7 @@ main {
 
 } */
 
-.work-card footer {
+/* .work-card footer {
   font-size: 1.4vw;
   font-weight: 600;
   justify-content: center;
@@ -281,7 +369,7 @@ main {
   width: 100%;
   
   
-}
+} */
 
 /* .row3 {
   display: flex;
@@ -317,8 +405,9 @@ main {
 }
 
 .right-margin-box {
+  height: 100%;
   display: block;
-  width:10%;
+  width:250px;
   /* border: solid 1px #E5E9F0; */
   margin-top: 45px;
 }
@@ -328,7 +417,7 @@ footer {
   font-size: 1.5vw;
   text-align: center;
   padding: 20px;
-  height: 70px;
+  height: auto;
   width: 100%;
   /* border: solid 1px #E5E9F0; */
 
