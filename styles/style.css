@@ -57,16 +57,20 @@ font-style: normal;
   margin: 0;
 }
 
+html {
+  font-size: 62.5%;
+
+}
 
 body {
   background: var(--polar-night2);
   color: var(--snow-storm2);
   font-family: "HelveticaNeueLTPro-Th", Arial, Helvetica, sans-serif;
+  max-width: 1920px; 
+	margin: 0 auto !important; 
+	float: none !important; 
 }
 
-p {
-  font-size: 18px;
-}
 
 a {
   color: var(--snow-storm2);
@@ -78,7 +82,7 @@ a {
   display: inline-block;
   padding-left: 33px;
   font-family: "HelveticaNeueLTPro-Th", Arial, Helvetica, sans-serif;
-  font-size: 55px;
+  font-size: 4.5vw;
   background: #3B4252;
   color:#E5E9F0;
   font-weight: 400;
@@ -100,7 +104,7 @@ a {
   margin-right: 0px;
   float: right;
   font-family: "HelveticaNeueLTPro-UltLt", Arial, Helvetica, sans-serif;
-  font-size: 30px;
+  font-size: 2.2vw;
   
 }
 
@@ -114,9 +118,8 @@ a {
 
 
 .main-img {
-  height: 800px;
-  width: 100%;
-  margin-bottom: 35px;
+  height: 820px;
+  max-width: 100%;
   background-image: url("../images/fade.jpg");
   background-size: cover;
   background-position: center;
@@ -124,77 +127,107 @@ a {
 }
 
 
-section {
-  color: #E5E9F0;
+.frost-line1 {
+  display: block;
+  width: 15px;
+  background-color: #5E81AC;
+  padding-left: 50px;
+  
 }
 
+.frost-line2 {
+  display: block;
+  width: 15px;
+  background-color: #81A1C1;
+  padding-left: 30px;
+}
+
+.frost-line3 {
+  display: block;
+  width: 15px;
+  background-color: #88C0D0;
+  padding-left: 22px
+}
+
+.frost-line4 {
+  display: block;
+  width: 15px;
+  background-color: #8FBCBB;
+  padding-left: 16px;
+}
 
 
 /* left margin about me work contact --> */
 h2 {
-  font-size: 38px;
+  font-size: 3.25vw;
   font-family: "HelveticaNeueLTPro-Th", Arial, Helvetica, sans-serif;
   font-weight: 400;
 }
 
 aside {
   width:18%;
-  padding-left: 40px;
+  padding-left: 55px;
   padding-right: 15px;
+  margin-top: 45px;
+  
   
 }
 
 
 .about-header {
-  height: 155px;
+  height: 24%;
+  
 
 }
 
 .work-header {
-  height: 922px;
+  height: 66%
   
 }
 
 .contact-header {
-  height: 100px;
+  height: 10%;
+  
 
 }
 
 .separating-line {
   display:block;
-  height: 900px;
-  width: 1.5px; 
+  height: 1400px;
+  width: 3px; 
   background-color:  #E5E9F0;
   
 }
 
 main {
   display:flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  width: 100%;
+  flex-wrap: no-wrap;
+  
   
 }
 
 .main-content {
-  
-  width: 60%;
+  width: 80%;
   margin-left: 20px;
+  margin-top: 45px;
 }
 
 .about-content {
   display: block;
-  
-  height: 155px;
-  border: solid 1px #E5E9F0;
+  font-size: 1.5vw;
+  height: 24%;
+  padding-left: 6%;
+  /* border: solid 1px #E5E9F0; */
 }
 
 /*work cards starts here */
 .work-content {
-  border: solid 2px #E5E9F0;
-  padding: 10px;
-  padding-left: 5%;
-  padding-right: 5%;
+  /* border: solid 2px #E5E9F0; */
+  display: flexbox;
+  width: 100%;
+  height: 66%;
+  padding: 6%;
+  
 }
 
 
@@ -202,25 +235,31 @@ main {
 .work-card {
  
   background-color: var(--snow-storm3);
-  margin: 0px; 
-  padding: 0px;
-  border: 2px solid rgb(44, 44, 46);
+  border: 3px solid rgb(44, 44, 46);
   color:rgb(44, 44, 46);
+  margin: 0.75rem;
+  box-shadow: inset;
+  
   
 }
 
-.work-card header {
+/* .work-card header {
   font-family: "HelveticaNeueLTPro-Th", Arial, Helvetica, sans-serif;
   font-size: 20px;
   font-weight: 500;
   text-align: center;
   background-color: var(--frost1);
 
-}
+} */
 
-.work-card p {
+.work-card footer {
+  font-size: 2rem;
+  font-weight: 600;
+  justify-content: center;
   padding: 5px;
   text-align: center;
+  margin-top: 4%;
+  
 }
 
 .work-card img {
@@ -237,25 +276,27 @@ main {
 .row2 {
   display: flex;
   flex-direction: row;
-  flex: 1 0 0;
+  width: 100%;
+  
   
 }
 
-.row3 {
+/* .row3 {
   display: flex;
   flex-direction: row;
-  flex: 1 0 0;
+  
 }
-
+ */
 
 
 /*work cards end here */
 
 
 .contact-content {
-  height: 100px;
+  padding-top: 4%;
+  height: 10%;
   text-align: center;
-  border: solid 1px #E5E9F0;
+  /* border: solid 1px #E5E9F0; */
   
 }
 
@@ -264,39 +305,41 @@ main {
   display: inline-block;
   margin: 0;
   padding: 0;
-  font-size: 26px;
-  margin-left: 25px;
+  font-size: 2.1vw;
+  margin-left: 3.5%;
   
+}
+
+.contact-content ul {
+  margin-right: 5%;
 }
 
 .right-margin-box {
   display: block;
-  width:15%;
-  border: solid 1px #E5E9F0;
-
+  width:10%;
+  /* border: solid 1px #E5E9F0; */
+  margin-top: 45px;
 }
 
 footer {
   display: block;
-  font-size: 19px;
+  font-size: 1.75rem;
   text-align: center;
   padding: 20px;
   height: 70px;
   width: 100%;
-  border: solid 1px #E5E9F0;
+  /* border: solid 1px #E5E9F0; */
 
 }
 
+@media screen and (max-width: 992px) {
+  /* .row2 {
+    flex-direction: column;
+  }
+   */
+}
 
 @media screen and (max-width: 768px) {
-  .row2 {
-    flex-direction: column;
-  }
-
-  .row3 {
-    flex-direction: column;
-
-  }
-  
+ 
 
 }
