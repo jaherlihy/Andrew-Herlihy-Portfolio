@@ -46,45 +46,39 @@
     <div class="frost-line4"></div>
 
 
-    <aside class="left-margin-box">
-
-      <div id="about-me" class="about-header">
-        <h2>About<br> Me /</h2>
-      </div>
-
-      <div id="work" class="work-header">
-        <h2>Work /</h2>
-      </div>
-
-      <div id="contact" class="contact-header">
-        <h2>Contact<br> Me /</h2>
-      </div>
-
-    </aside>
-
-    <!-- vertical line that separates left sidebar from content in the middle-->
-    <div class="separating-line"></div>
-
     <section class=main-content>
 
-      <section class="about-content">
-        <p>
-          I recently started the SMU Full Stack Flex coding bootcamp this August. I have no prior experience in the
-          field but want to make a career change. So far it is challenging and fascinating at the same time. I'm already
-          at apoint where I can spend hours compuslively tweaking code. The most paintful part so far has been figuring
-          out cards and flex boxes. I can't for the life of me get the 2nd row of cards to fill up the width properly
-          without inserting extra text into the card footer. It is absolutely maddening and it's taken every fiber of
-          self-control
-          and willpower to stop myself from banging my head against the wall until I go unconscious. Hopefully I can
-          figure it
-          out before the weekend gets here. Also, if my webpage looks awful on my smart phone I think I might lose the
-          last shred of sanity I have left
-          it's 3:44 AM right now and I need to sleep.
+      <section class="about-flex">
+        <section id="about-me" class="about-header">
+          <h2>About<br> Me /</h2>
+        </section>
+
+        <section class="about-content">
+          <p>
+            I recently started the SMU Full Stack Flex coding bootcamp this August. I have no prior experience in the
+            field but want to make a career change. So far it is challenging and fascinating at the same time. I'm
+            already
+            at apoint where I can spend hours compuslively tweaking code. The most paintful part so far has been
+            figuring
+            out cards and flex boxes. I can't for the life of me get the 2nd row of cards to fill up the width properly
+            without inserting extra text into the card footer. It is absolutely maddening and it's taken every fiber of
+            self-control
+            and willpower to stop myself from banging my head against the wall until I go unconscious. Hopefully I can
+            figure it
+            out before the weekend gets here. Also, if my webpage looks awful on my smart phone I think I might lose the
+            last shred of sanity I have left
+          </p>
+        </section>
+
       </section>
 
-      <section class="work-content">
+      <section class="work-flex">
 
-        <div class="card-container">
+        <section id="work" class="work-header">
+          <h2>Work /</h2>
+        </section>
+
+        <section class="work-content">
 
           <div class="card">
             <a href="#">
@@ -133,84 +127,26 @@
               <div class="description">
                 <h2>Javascript Calculator</h2>
                 <p class="card-text">This is a javascript calculator. I saw it on the demo page so I decided to put it
-                  on here. We're
-                  going to make a password generator instead, though.
+                  on here. We're going to make a password generator instead, though.
                 </p>
               </div>
             </a>
           </div>
 
-          <!-- <div class="card">
-            <a href="#">
-              <div class="card-image">
-                <img src="images/scandipatt9.jpg" alt="Scandinavian pattern">
-              </div>
-              <div class="description">
-                <h2>City 2</h2>
-                <p>The hawks laksa king, cookie collingwood ferals warehouse chic spring racing carnival the
-                  rebels,
-                  temper trap rooftop bars the borek woman.
-                </p>
-                <p></p>
-              </div>
-            </a>
-          </div> -->
-
-        </div>
-
-        </div>
-
-
+        </section>
 
       </section>
-      <!-- 
-        <div class="top-card">
-
-          <article class="work-card">
-
-            <img src="images/nordimg3.jpg" alt="placholder image" />
-            <footer>Javascript Password generator</footer>
-          </article>
-
-        </div>
-
-        <div class="row2">
-
-          <article class="work-card">
-
-            <img src="images/nordimg3.jpg" alt="placholder image" />
-
-            <footer>Javascript Password Generator</footer>
-
-          </article>
-
-          <article class="work-card">
-
-            <img src="images/nordimg3.jpg" alt="placholder image" />
-
-            <footer>Javascript Password Generator</footer>
-
-          </article>
-
-
-          <article class="work-card">
-
-            <img src="images/nordimg3.jpg" alt="placholder image" />
-
-            <footer>Javascript Password Generator</footer>
-
-          </article>
-
-
-        </div> -->
-
-
-
 
 
       <!-- Contact info at bottom of main section-->
-      <section class="contact-content">
-        <div>
+      <section class="contact-flex">
+
+        <section id="contact" class="contact-header">
+          <h2>Contact<br> Me /</h2>
+        </section>
+
+        <section class="contact-content">
+
           <ul>
             <li><a href="tel:555-555-5555">555-555-5555</a></li>
             <li><a href="mailto:jaherlihy@gmail.com">jaherlihy@gmail.com</a></li>
@@ -218,20 +154,22 @@
             <li><a href="https://www.linkedin.com/in/andrew-herlihy-70661418b/">LinkedIn</a></li>
             <li><a href="https://open.spotify.com/user/jaherlihy/">Spotify</a></li>
           </ul>
-        </div>
+
+        </section>
+
       </section>
 
     </section>
 
-    <div class="right-margin-box"></div>
+
 
   </main>
 
 
-  <footer>
+  <footer class="footer">
     <p>
-      Made using <a href="https://www.nordtheme.com/">Nord Theme</> <img src="images/nord-icon.png" alt="Nord Icon"
-          id="Nord-Icon" />
+      Made using <a href="https://www.nordtheme.com/">Nord Theme</> <img src="images/nord-icon.png" class="Nord-Icon"
+          alt="Nord Icon" />
     </p>
 
   </footer>
