@@ -115,16 +115,13 @@ a {
   height: auto;
   width: 100vw;
   max-width: 100%;
-  /* background-image: url("../images/fade.jpg"); */
   background-size: cover;
   background-position: center;
 }
 
-
-
 main {
   display:flex;
-  
+  margin-top: -0.15vw;
 }
 
 .frost-line1 {
