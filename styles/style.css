@@ -114,19 +114,22 @@ a {
   text-decoration: underline;
 }
 
+
+
 .main-img {
   height: auto;
   width: 100vw;
   max-width: 100%;
   background-size: cover;
   background-position: center;
+  display: flex;
+  position: relative;
 }
 
 
 
 main {
   display:flex;
-  /* margin-top: -0.25vw; */
 }
 
 .frost-bar {
@@ -137,28 +140,24 @@ main {
   display: block;
   width: 1.8vw;
   background-color: var(--frost4);
-
 }
 
 .frost-line2 {
   display: block;
   width: 1.6vw;
   background-color: var(--frost3);
-
 }
 
 .frost-line3 {
   display: block;
   width: 1vw;
   background-color: var(--frost2);
- 
 }
 
 .frost-line4 {
   display: block;
   width: 0.7vw;
   background-color: var(--frost1);
-
 }
 
 .main-content {
@@ -311,8 +310,6 @@ footer {
     font-size: 1.75rem;
   }
 
-  
-
   .card {
     flex: 1 0 33%;
   }
@@ -324,14 +321,7 @@ footer {
     font-size: 1.5rem;
   }
 
-  .work-content {
-    flex-direction: row;
-    flex-flow: wrap-reverse;
-    align-items: center;
-    justify-content: center;
-    
-    
-  }
+  
   
   .card {
     flex: 1 0 50%;
