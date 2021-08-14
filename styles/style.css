@@ -114,8 +114,6 @@ a {
   text-decoration: underline;
 }
 
-
-
 .main-img {
   height: auto;
   width: 100vw;
@@ -125,8 +123,6 @@ a {
   display: flex;
   position: relative;
 }
-
-
 
 main {
   display:flex;
@@ -313,7 +309,6 @@ footer {
   .card {
     flex: 1 0 33%;
   }
- 
 }
 
 @media screen and (max-width: 768px) {
@@ -321,10 +316,7 @@ footer {
     font-size: 1.5rem;
   }
 
-  
-  
   .card {
     flex: 1 0 50%;
   }
-
 } 
