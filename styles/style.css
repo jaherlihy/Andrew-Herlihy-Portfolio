@@ -111,6 +111,11 @@ a {
   list-style-type: none;
 }
 
+.nav-hover :hover {
+  text-decoration: underline;
+  
+}
+
 .main-img {
   height: auto;
   width: 100vw;
@@ -216,10 +221,12 @@ h3 {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
   background-color:var(--snow-storm3);
-  border: 2.8px solid var(--graphite);
+  border: 0.2vw solid var(--graphite);
   flex: 1 0 24%;
   box-shadow: 13px 8px 10px 0px rgb(54, 55, 70);
 }
+
+
 
 .card-image,
 .description {
@@ -233,7 +240,7 @@ h3 {
 
 .description {
   padding: 0.5rem 1rem;
-  color: var(--graphite)
+  color: var(--graphite);
 }
 
 .card-image img {
@@ -273,7 +280,11 @@ h3 {
   padding: 0;
   font-size: 2.1vw;
   margin-left: 2vw;
-  
+}
+
+.contact-content li:hover {
+  text-decoration: underline;
+
 }
 
 footer {
@@ -305,6 +316,5 @@ footer {
   .about-content {
     font-size: 1.5rem;
   }
-  
 
 }
