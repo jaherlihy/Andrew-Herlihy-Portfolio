@@ -209,12 +209,11 @@ h3 {
   font-weight: 500;
   color: var(--graphite);
   font-size: 2.5vw;
-  height: 4rem;
   margin-bottom: 1vw;
 }
 
 .work-content {
-  width: 50%;
+  width: 60%;
   margin: 0 auto;
   padding: 0.5rem 0;
   background-color: var(--polar-night2);
@@ -229,7 +228,7 @@ h3 {
   margin-right: 0.5rem;
   background-color:var(--snow-storm3);
   border: 0.2vw solid var(--graphite);
-  flex: 1 0 24%;
+  flex: 1 0 25%;
   box-shadow: 13px 8px 10px 0px rgb(54, 55, 70);
 }
 
@@ -283,7 +282,7 @@ h3 {
   display: inline-block;
   text-align: center;
   padding: 0;
-  font-size: 2.1vw;
+  font-size: 2vw;
   margin-left: 2vw;
 }
 
@@ -307,14 +306,35 @@ footer {
   margin-left: 0.5vw;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1050px) {
   .about-content {
     font-size: 1.75rem;
   }
+
+  
+
+  .card {
+    flex: 1 0 33%;
+  }
+ 
 }
 
 @media screen and (max-width: 768px) {
   .about-content {
     font-size: 1.5rem;
   }
-}
+
+  .work-content {
+    flex-direction: row;
+    flex-flow: wrap-reverse;
+    align-items: center;
+    justify-content: center;
+    
+    
+  }
+  
+  .card {
+    flex: 1 0 50%;
+  }
+
+} 
