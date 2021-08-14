@@ -57,7 +57,6 @@ font-style: normal;
   margin: 0;
 }
 
-
 html {
   font-size: 62.5%;
 }
@@ -78,7 +77,7 @@ a {
 
 .navigation h1 {
   display: inline-block;
-  padding-left: 33px;
+  padding-left: 1.5vw;
   font-family: "HelveticaNeueLTPro-Th", Arial, Helvetica, sans-serif;
   font-size: 4.5vw;
   background: var(--polar-night2);
@@ -89,7 +88,7 @@ a {
 .navigation {
   display: flex;
   background: var(--polar-night2);
-  padding: 20px;
+  padding: 1.25vw;
   justify-content: space-between;
   flex-direction: row;
   align-items: center;
@@ -97,8 +96,8 @@ a {
 }
 
 .navigation div {
-  padding-right: 20px;
-  padding-top: 10px;
+  padding-right: 1.5vw;
+  padding-top: 0x;
   margin-right: 0px;
   float: right;
   font-family: "HelveticaNeueLTPro-UltLt", Arial, Helvetica, sans-serif;
@@ -113,7 +112,6 @@ a {
 
 .nav-hover :hover {
   text-decoration: underline;
-  
 }
 
 .main-img {
@@ -124,33 +122,43 @@ a {
   background-position: center;
 }
 
+
+
 main {
   display:flex;
-  margin-top: -0.15vw;
+  /* margin-top: -0.25vw; */
+}
+
+.frost-bar {
+  display: flex;
 }
 
 .frost-line1 {
   display: block;
   width: 1.8vw;
   background-color: var(--frost4);
+
 }
 
 .frost-line2 {
   display: block;
   width: 1.6vw;
   background-color: var(--frost3);
+
 }
 
 .frost-line3 {
   display: block;
   width: 1vw;
   background-color: var(--frost2);
+ 
 }
 
 .frost-line4 {
   display: block;
   width: 0.7vw;
   background-color: var(--frost1);
+
 }
 
 .main-content {
@@ -196,7 +204,6 @@ h2 {
   border-right: solid 0.3vw var(--snow-storm2);
 }
 
-
 h3 {
   text-align: left;
   font-weight: 500;
@@ -225,8 +232,6 @@ h3 {
   flex: 1 0 24%;
   box-shadow: 13px 8px 10px 0px rgb(54, 55, 70);
 }
-
-
 
 .card-image,
 .description {
@@ -284,7 +289,6 @@ h3 {
 
 .contact-content li:hover {
   text-decoration: underline;
-
 }
 
 footer {
@@ -301,20 +305,16 @@ footer {
   width: 1.5vw;
   height: 1.3vw;
   margin-left: 0.5vw;
-
 }
-
 
 @media screen and (max-width: 992px) {
   .about-content {
     font-size: 1.75rem;
   }
-  
 }
 
 @media screen and (max-width: 768px) {
   .about-content {
     font-size: 1.5rem;
   }
-
 }
