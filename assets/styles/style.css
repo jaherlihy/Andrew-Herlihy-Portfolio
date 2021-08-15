@@ -220,12 +220,13 @@ h3 {
   margin: 0.5rem auto;
   margin-left: 0.5rem;
   margin-right: 0.5rem;
-  background-color:var(--snow-storm3);
+  background: url("..//images/0066.jpg");
   border: 0.2vw solid var(--graphite);
   flex: 1 0 25%;
   box-shadow: 13px 8px 10px 0px rgb(54, 55, 70);
+  
 }
-
+/* background-color:var(--snow-storm3); */
 .card-image,
 .description {
   width: 90%;
@@ -248,12 +249,9 @@ h3 {
   height: auto;
 }
 
-.description h3 {
-  padding-bottom: 0.5rem;
-}
-
 .card-text {
-  font-size: 1vw;
+  font-size: 1.1vw;
+  padding-bottom: -3vw;
 }
 
 .contact-flex {
@@ -316,6 +314,10 @@ footer {
   .card {
     flex: 1 0 33%;
   }
+
+  .card-text {
+    font-size: 1.5rem;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -323,7 +325,14 @@ footer {
     font-size: 1.5rem;
   }
 
+  h3 {
+    font-size: 3rem;
+  }
+
   .card {
     flex: 1 0 50%;
+  }
+  .card-text {
+    font-size: 2rem;
   }
 } 
