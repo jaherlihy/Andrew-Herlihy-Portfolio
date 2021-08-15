@@ -164,7 +164,6 @@ main {
   margin-bottom: 3%;
 }
 
-
 h2 {
   font-size: 3.25vw;
   font-family: "HelveticaNeueLTPro-Th", Arial, Helvetica, sans-serif;
@@ -281,6 +280,10 @@ h3 {
   margin-left: 2vw;
 }
 
+.contact-list {
+  display: flex;
+}
+
 .contact-content li:hover {
   text-decoration: underline;
 }
@@ -293,6 +296,10 @@ footer {
   width: 100%;
   height: 5vw;
   background-color: var(--polar-night3);
+}
+
+.nord-hover:hover {
+  text-decoration: underline;
 }
 
 .nord-icon img {
