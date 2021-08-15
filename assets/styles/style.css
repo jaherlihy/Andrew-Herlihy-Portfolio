@@ -253,9 +253,19 @@ h3 {
   height: auto;
 }
 
+.big-card {
+  font-size: 3.5vw;
+
+
+}
+
 .card-text {
-  font-size: 1.1vw;
+  font-size: 1.45vw;
   padding-bottom: -3vw;
+}
+
+.card-text-big {
+  font-size: 1.75vw;
 }
 
 .contact-flex {
@@ -319,10 +329,19 @@ footer {
     flex: 1 0 33%;
   }
 
+  .big-card {
+    font-size: 2.5rem;
+  }
+
   .card-text {
     font-size: 1.5rem;
   }
-}
+
+  .card-text-big {
+    font-size: 1.5rem;
+  }
+} 
+
 
 @media screen and (max-width: 768px) {
   .about-content {
@@ -330,13 +349,21 @@ footer {
   }
 
   h3 {
-    font-size: 3rem;
+    font-size: 2.5rem;
+  }
+
+  .big-card {
+    font-size: 2.5rem;
   }
 
   .card {
     flex: 1 0 50%;
   }
   .card-text {
+    font-size: 2rem;
+  }
+
+  .card-text-big {
     font-size: 2rem;
   }
 } 
