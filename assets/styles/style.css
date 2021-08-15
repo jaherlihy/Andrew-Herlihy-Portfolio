@@ -224,9 +224,13 @@ h3 {
   border: 0.2vw solid var(--graphite);
   flex: 1 0 25%;
   box-shadow: 13px 8px 10px 0px rgb(54, 55, 70);
-  
+  opacity: 0.94;
 }
-/* background-color:var(--snow-storm3); */
+
+.card:hover {
+  opacity: 1;
+}
+
 .card-image,
 .description {
   width: 90%;
