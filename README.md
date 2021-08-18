@@ -11,6 +11,6 @@ One of the biggest hurdles to overcome for this was learning to properly impleme
 The second huge breakthrough I had was the realization that I needed to switch from vertical columns for the sidebar and main content to horizontal rows. This makes it so they automatically resize the smaller the viewport gets without any media queries. I got the responsive design down well enough for this site to be viewable on my smartphone. The only thing I think really needs visual improvement is the appearance of the project cards. Otherwise, I am extremely happy with the way this came out and quite proud to be honest. 
 
 
-![Website Screenshot](https://github.com/jaherlihy/Andrew-Herlihy-Portfolio/blob/main/images/Portfolio-screenshot.png?raw=true)
+![Website Screenshot](https://github.com/jaherlihy/Andrew-Herlihy-Portfolio/blob/main/assets/images/Portfolio-screenshot.png?raw=true)
 
 https://jaherlihy.github.io/Andrew-Herlihy-Portfolio/
